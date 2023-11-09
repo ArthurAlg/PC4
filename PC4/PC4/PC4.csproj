@@ -22,4 +22,9 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
+  <ItemGroup>
+    <None Update="..\.dockerignore">
+      <DependentUpon>DockerFile</DependentUpon>
+    </None>
+  </ItemGroup>
 </Project>
