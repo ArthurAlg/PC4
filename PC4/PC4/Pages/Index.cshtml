@@ -1,0 +1,18 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Formulario</h1>
+    <form method="post">
+        <label for="inputValue">Intrtoduce a word:</label>
+        <input type="text" id="inputValue" name="palabra" />
+        <button type="submit">Submit</button>
+    </form>
+
+    <div>
+        <p>@ViewData["Resultado"]</p>
+    </div>
+</div>
